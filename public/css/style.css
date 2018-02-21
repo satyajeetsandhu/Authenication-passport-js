@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* Space out content a bit */
+body {
+padding-top: 10px;
+background-color: #0C1514;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+/* Custom page header */
+.header {
+  padding-bottom: 10px;
+  background-color: #0C1514;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.nav{
+padding-top: 10px;
+font-family: 'Raleway', sans-serif;
+padding-right: 10px;
+}
+.header h3 {
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #1747F1;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+/* Supporting marketing content */
+.marketing {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* Responsive: Portrait tablets and up*/
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier*/
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+ .page-header{
+   font-family: 'Raleway', sans-serif;
+ }
+
+}
